@@ -472,51 +472,51 @@ public class Doc {
 
 	@Override
 	public String toString() {
-		return   id.trim() + ","
-				+ sectionNo.trim() + "," 
-				+ slnoInpart.trim() + ","
-	            + stCode.trim() + ","
-	            + stName.trim() + "," 
-	    	    + distNo.trim() + ","
-	            + distName.trim() + ","
-	            + distNameV1.trim() + ","
+		return   id.trim() +";"
+				+ sectionNo.trim() +";" 
+				+ slnoInpart.trim() +";"
+	            + stCode.trim() +";"
+	            + stName.trim() +";" 
+	    	    + distNo.trim() +";"
+	            + distName.trim() +";"
+	            + distNameV1.trim() +";"
 	            
-	            + pcNo.trim()+","
-	            + pcName.trim() + ","
-	            + pcNameV1.trim() + ","
+	            + pcNo.trim()+";"
+	            + pcName.trim() +";"
+	            + pcNameV1.trim() +";"
 	            
-	            + acNo.trim() + "," 
-	            + acName.trim() + ","
-	            + acNameV1.trim() + ","
+	            + acNo.trim() +";" 
+	            + acName.trim() +";"
+	            + acNameV1.trim() +";"
 	            
-	            + partNo.trim() + ","
-	            + partName.trim() + ","
-	            + partNameV1.trim() + ","
+	            + partNo.trim() +";"
+	            + partName.trim() +";"
+	            + partNameV1.trim() +";"
 	            
-				+ epicNo.trim() + ","	
-				+ name.trim() + ","
-				+ nameV1.trim() + ","	
-				+ nameV2.trim() + "," 
-				+ nameV3.trim() + ","
+				+ epicNo.trim() +";"	
+				+ name.trim() +";"
+				+ nameV1.trim() +";"	
+				+ nameV2.trim() +";" 
+				+ nameV3.trim() +";"
 				
-			    + gender.trim() + ","
-			    + age + ","
+			    + gender.trim() +";"
+			    + age +";"
 			    
-			    + rlnName.trim() + ","
-				+ rlnType.trim() + "," 
-				+ rlnNameV1.trim() + "," 
-				+ rlnNameV2.trim() + ","
-				+ rlnNameV3.trim() + "," 
+			    + rlnName.trim() +";"
+				+ rlnType.trim() +";" 
+				+ rlnNameV1.trim() +";" 
+				+ rlnNameV2.trim() +";"
+				+ rlnNameV3.trim() +";" 
 				
-				+ psNo.trim() + ","
-				+ psName.trim() + "," 
-				+ psNameV1.trim() + "," 
+				+ psNo.trim() +";"
+				+ psName.trim() +";" 
+				+ psNameV1.trim() +";" 
 				
-				+ psLatLong1Coordinate + ","
-				+ psLatLong0Coordinate + "," 
+				+ psLatLong1Coordinate +";"
+				+ psLatLong0Coordinate +";" 
 				
-				+ lastUpdate.trim() + ","  
-				+ version + ","				
+				+ lastUpdate.trim() +";"  
+				+ version +";"				
 			    + additionalProperties;
 	}
 	
@@ -527,15 +527,15 @@ public class Doc {
 
 //	@Override
 //	public String toString() {
-//		return pcName.trim() + "," + stCode.trim() + "," + psLatLong1Coordinate + "," + gender.trim() + ","
-//				+ rlnNameV2.trim() + "," + rlnNameV1.trim() + "," + rlnNameV3.trim() + "," + nameV1.trim() + ","
-//				+ epicNo.trim() + "," + acName.trim() + "," + nameV2.trim() + "," + nameV3.trim() + ","
-//				+ pcNo.trim() + "," + lastUpdate.trim() + "," + id.trim() + "," + distNo.trim()
-//				+ "," + psNo.trim() + "," + psName.trim() + "," + psNameV1.trim() + "," + stName.trim() + ","
-//				+ distName.trim() + "," + rlnType.trim() + "," + pcNameV1.trim() + "," + partNameV1.trim() + ","
-//				+ acNameV1.trim() + "," + partNo.trim() + "," + distNameV1.trim() + "," + psLatLong0Coordinate + ","
-//				+ version + "," + name.trim() + "," + sectionNo.trim() + "," + acNo.trim() + "," + slnoInpart.trim()
-//				+ "," + rlnName.trim() + "," + age + "," + partName.trim() + "," + additionalProperties;
+//		return pcName.trim() +";" + stCode.trim() +";" + psLatLong1Coordinate +";" + gender.trim() +";"
+//				+ rlnNameV2.trim() +";" + rlnNameV1.trim() +";" + rlnNameV3.trim() +";" + nameV1.trim() +";"
+//				+ epicNo.trim() +";" + acName.trim() +";" + nameV2.trim() +";" + nameV3.trim() +";"
+//				+ pcNo.trim() +";" + lastUpdate.trim() +";" + id.trim() +";" + distNo.trim()
+//				+";" + psNo.trim() +";" + psName.trim() +";" + psNameV1.trim() +";" + stName.trim() +";"
+//				+ distName.trim() +";" + rlnType.trim() +";" + pcNameV1.trim() +";" + partNameV1.trim() +";"
+//				+ acNameV1.trim() +";" + partNo.trim() +";" + distNameV1.trim() +";" + psLatLong0Coordinate +";"
+//				+ version +";" + name.trim() +";" + sectionNo.trim() +";" + acNo.trim() +";" + slnoInpart.trim()
+//				+";" + rlnName.trim() +";" + age +";" + partName.trim() +";" + additionalProperties;
 //	}
 
 	@JsonAnySetter

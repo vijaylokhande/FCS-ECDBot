@@ -62,9 +62,9 @@ public class InputDataFilter {
 
 		String newId = "";
 
+		id=id.trim();
 		
-		
-		if(id.contains("/") && id.length()==17) {
+		if(id.contains("/") && id.length() == 16) {
 			
 			String alphId = "";
 			String numId = "";
@@ -74,7 +74,7 @@ public class InputDataFilter {
 
 			alphId = id.substring(0, 2);
 		//	System.out.println(alphId);
-			numId = id.substring(2,17);
+			numId = id.substring(2,16);
 		//	System.out.println(numId);
 			
 			Pattern p1 = Pattern.compile("[A-Z]");
@@ -97,7 +97,7 @@ public class InputDataFilter {
 			}
 
 			if (!m2.matches()) {
-				for (int i = 2; i < 15; i++) {		
+				for (int i = 2; i < 14; i++) {		
 					
 					if(i==2 || i==5 || i==9)
 						newNumId +="/";
@@ -110,7 +110,7 @@ public class InputDataFilter {
 				newNumId = numId;
 			}
 			
-			if (newAlphId.length() == 2 && newNumId.length() == 15) {
+			if (newAlphId.length() == 2 && newNumId.length() == 14) {
 				newAlphId=newAlphId.concat(newNumId);
 				newId=newAlphId;
 				//System.out.println("correction done -> "+newId);

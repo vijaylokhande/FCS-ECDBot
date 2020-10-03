@@ -78,7 +78,7 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
-							<mainClass>ECDBotApp</mainClass>
+							<mainClass>com.fcs.ecdb.ECDBotApp</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
